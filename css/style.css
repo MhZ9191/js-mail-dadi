@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  background-color: red;
+}
+
+#top {
+  height: 100vh;
+  background-image: url("../img/babboz.png");
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.buoneFeste > h1 {
+  padding-top: 20px;
+  font-size: 64px;
+  color: white;
+}
+
+.buoneFeste {
+  text-align: center;
+}
+
+.buoneFeste li {
+  list-style: none;
+  display: inline;
+  margin: 0 15px;
+}
